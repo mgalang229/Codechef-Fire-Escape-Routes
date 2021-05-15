@@ -51,7 +51,7 @@ int main() {
 			++res;
 			// reset 'cnt' to 0
 			cnt = 0;
-			// run dfs on vertex 'u' to vist the adjacent nodes
+			// run dfs on vertex 'u' to visit the adjacent nodes
 			dfs(u);
 			// multiply 'ways' to 'cnt and take the modulo of 1e9 + 7 because
 			// the answer might be too large
