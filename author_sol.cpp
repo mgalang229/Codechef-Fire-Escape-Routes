@@ -53,7 +53,7 @@ int main() {
 			cnt = 0;
 			// run dfs on vertex 'u' to visit the adjacent nodes
 			dfs(u);
-			// multiply 'ways' to 'cnt and take the modulo of 1e9 + 7 because
+			// multiply 'ways' to 'cnt' and take the modulus of 1e9 + 7 because
 			// the answer might be too large
 			ways = (long long) cnt * ways % 1000000007;
 		}
